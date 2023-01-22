@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/NathanMartinez/fm_base_apparel_coming_soon)
-- Live Site URL: [Github Pages Site](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Site](https://nathanmartinez.github.io/fm_base_apparel_coming_soon/)
 
 ## My process
 
@@ -64,12 +64,6 @@ I used the following CSS Grid layout for my desktop layout solution.
 			'content girl';
 		background: url('./assets/bg-pattern-desktop.svg') no-repeat;
 	}
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log('🎉')
 }
 ```
 
