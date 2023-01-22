@@ -80,6 +80,7 @@ I used the following CSS Grid layout for my desktop layout solution.
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax) - This is a great resource that I used to fix an issue with the desktop layout.
 - [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity) - This is an amazing article which helped me understand how to update inputs by their :invalid pseudo selector. I'd recommend it to anyone still learning this concept.
+- [How to deploy svelte app in Github Pages](https://hrishikeshpathak.com/blog/svelte-gh-pages/) - This is a really good breakdown of how to how to deploy svelte app in Github Pages and I used this to preform this action for the first time.
 
 ## Author
 
