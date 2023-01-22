@@ -22,7 +22,7 @@
 </script>
 
 <main>
-	<img class="logo" src="./src/assets/logo.svg" alt="logo" />
+	<img class="logo" src="./assets/logo.svg" alt="logo" />
 	<div class="girl" />
 	<div class="content">
 		<h1>We're</h1>
@@ -34,10 +34,10 @@
 		</p>
 		<form class={error && 'error'} on:submit|preventDefault={validateEmail}>
 			<input required type="email" placeholder="Email Address" />
-			<img class="error_image" src="./src/assets/icon-error.svg" alt="error" />
+			<img class="error_image" src="./assets/icon-error.svg" alt="error" />
 			<p class="error_text">Please provide a valid email</p>
 			<button type="submit">
-				<img src="./src/assets/icon-arrow.svg" alt="submit" />
+				<img src="./assets/icon-arrow.svg" alt="submit" />
 			</button>
 		</form>
 	</div>
@@ -75,7 +75,7 @@
 	}
 
 	main .girl {
-		background: url('./src/assets/hero-mobile.jpg') center no-repeat;
+		background: url('./assets/hero-mobile.jpg') center no-repeat;
 		width: 375px;
 		grid-area: girl;
 	}
