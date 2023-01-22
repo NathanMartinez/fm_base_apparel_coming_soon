@@ -1,4 +1,8 @@
 <script>
+	import logo from './assets/logo.svg'
+	import arrow from './assets/icon-arrow.svg'
+	import errorImage from './assets/icon-error.svg'
+
 	let error = false
 
 	function validateEmail(e) {
@@ -22,7 +26,7 @@
 </script>
 
 <main>
-	<img class="logo" src="./assets/logo.svg" alt="logo" />
+	<img class="logo" src={logo} alt="logo" />
 	<div class="girl" />
 	<div class="content">
 		<h1>We're</h1>
@@ -34,10 +38,10 @@
 		</p>
 		<form class={error && 'error'} on:submit|preventDefault={validateEmail}>
 			<input required type="email" placeholder="Email Address" />
-			<img class="error_image" src="./assets/icon-error.svg" alt="error" />
+			<img class="error_image" src={errorImage} alt="error" />
 			<p class="error_text">Please provide a valid email</p>
 			<button type="submit">
-				<img src="./assets/icon-arrow.svg" alt="submit" />
+				<img src={arrow} alt="submit" />
 			</button>
 		</form>
 	</div>
